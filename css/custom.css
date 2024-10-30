@@ -1,0 +1,93 @@
+/* css for key-page.php page */
+
+
+
+h1.cheerme-keys-title
+{
+	margin-bottom: 20px;
+}
+.cheerme-key-panel
+{
+	background-color: white;
+    padding: 20px;
+    display: flex;
+}
+.cheerme-public-key-label
+{
+	font-size: large;
+	margin-right: 17px;
+}
+.cheerme-private-key-label
+{
+	font-size: large;
+	margin-right: 10px;
+}
+input.cheerme-radios
+{
+	margin-left: 10px;
+}
+.cheerme-head-content
+{
+	font-size:18px;
+}
+.link-msg
+{
+	color:#595955;
+}
+p.cheerme-main-heading {
+    font-size: 36px;
+	margin:0px;
+}
+.cheerme-left-container {
+    width: 50%;
+    border-right: 1px solid #b4b9be;
+	padding-right: 15px;
+    
+}
+
+.cheerme-right-container {
+    width: 50%;
+    padding-left: 15px;
+    
+}
+
+.cheerme-public-key-text
+	{
+		width:50%;
+	}
+.cheerme-private-key-text
+	{
+		width:50%;
+	}
+
+@media only screen and (max-width: 768px) {
+  .cheerme-key-panel
+	{
+		background-color: white;
+		padding: 20px;
+		display: block;
+	}
+	.cheerme-left-container {
+		width: 100%;
+		border-right: 0px solid #b4b9be;
+		padding-right: 0px;
+    
+	}
+	.cheerme-right-container {
+		width: 100%;
+		padding-left: 0px;
+	}
+	.cheerme-public-key-text
+	{
+		margin-top:10px;
+		width:100%;
+	}
+	.cheerme-private-key-text
+	{
+		margin-top:10px;
+		width:100%;
+	}
+}
+
+
+
